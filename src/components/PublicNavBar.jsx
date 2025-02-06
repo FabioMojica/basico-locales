@@ -1,13 +1,12 @@
-import { Link } from "react-router-dom"
-
 const PublicNavBar = () => {
-  return (
-    <nav className="flex justify-around">
-        <Link>Menú</Link>
-        <Link>Sucursales</Link>
-        <Link>Pedir</Link>
-    </nav> 
-  )
-}
-
-export default PublicNavBar
+    return (
+      <nav className="flex justify-around">
+        <a href="#menu">Menú</a> 
+        <a href="#">Sucursales</a>
+        <a href="#order">Pedir</a> 
+      </nav>
+    );
+  };
+  
+  export default PublicNavBar;
+  
